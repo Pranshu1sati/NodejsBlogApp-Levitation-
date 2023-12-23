@@ -41,6 +41,9 @@ app.use("/api/auth", authRoute);
 app.use("/api/users", userRoute);
 app.use("/api/posts", postRoute);
 // app.use("/api/categories", categoryRoute);
+app.get('/', (req, res) => {
+  res.send('<h1>Node.js app</h1>');
+});
 app.listen('5000', ()=>{
     console.log('Backed is runnig')
 })
