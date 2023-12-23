@@ -1,5 +1,7 @@
 #This repo is proff of work for the Levitation intership task for further shortlisting and interview round
 #Node js Blog API
+
+
 #Register Route
 <p>End Point : https://nodejs-blog-api-kda1.onrender.com/api/auth/register </p>
 Need username email and password in reqest body.
